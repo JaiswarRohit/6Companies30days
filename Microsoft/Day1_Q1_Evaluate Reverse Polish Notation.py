@@ -1,6 +1,8 @@
 # #ReviseWithArsh #6Companies30Days Challenge 2023
 
-# You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
+#Microsoft 
+
+# 1) You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
 
 
 class Solution:
