@@ -1,0 +1,15 @@
+# #ReviseWithArsh #6Companies30Days Challenge 2023
+
+#Microsoft 
+
+# 4) You are given an integer array nums of length n. Return maximum length of Rotation Function.
+
+class Solution:
+    def maxRotateFunction(self, nums: List[int]) -> int:
+        Sum=sum(nums)
+        n=len(nums)
+        ans=val=sum(i*val for i,val in enumerate(nums))
+        for i in range(n-1,-1,-1):
+            val=val+Sum-n*nums[i]
+            ans=max(ans,val)
+        return ans
