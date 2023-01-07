@@ -25,3 +25,5 @@ class Solution:
         for crs in range(numCourses):
             if not dfs(crs): return False
         return True
+
+        # return True Value
